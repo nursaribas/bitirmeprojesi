@@ -1,0 +1,297 @@
+
+
+IBE çalışmalarına katkı yapan temel alanlar:
+-örgütsel psikoloji
+-bilgisayar bilimleri
+-ergonomi
+-bilişssel pskiloji
+-grafik ve endüstriyel tasarım
+-sosyoloji antropoloji
+-eğitim
+-yazılım mühendisliği
+Kullanılabilirliği yüksek olan ürünler;
+• Verimli, etkili ve memnun edicidir.
+• Kolay öğrenilir.
+• Uzun süre kullanımına ara verilse bile kısa sürede kullanımı hatırlanır.
+• Kullanıcıların hata yapmasına yol açmaz; olası hata durumlarında çözüm
+sunar.
+İnsan Bilgisayar Etkileşimi Nedir?
+• Etkileşimli (interactive) teknolojilerin tasarımı, geliştirilmesi,
+değerlendirilmesi ve uygulanması ile ilgilenen disiplinler arası bir çalışma
+alanıdır.
+İBE’nin tek bir tanımı yoktur. İBE tanımının olmazsa olmaz 4 boyutu vardır.
+Bunlar:
+• Disiplinler arası çalışması
+• Kullanılabilirlik (usability)
+• Tasarım
+• Etki
+İBE Neden Önemli 
+İnsanların,
+✓ bilgisayar ekranındaki bilgiyi nasıl algıladıkları,
+✓ dikkatlerini nasıl yönlendirdikleri,
+✓ kısa süreli belleklerini nasıl kullandıkları,
+✓ uzun süreli bellekten bilgiyi nasıl çağırdıkları ,
+✓ kendine özgü bilişsel stratejileri kullanma yetenekleri,
+✓ tecrübeleri,
+gibi konuları araştırmak yazılım geliştirme alanında bize önemli katkılar
+sağlayacaktır. 
+İBE’nin Ana Bileşenleri
+Dört Ana Bileşeni vardır:
+• Kullanıcı(User) : insan burada baş roldeki bileşenlerdir.
+• Araç/Arayüz(Tool) : kullanıcının gerçekleştirmek istediği görevi yerine getirmek için kullandığı alettir.
+• Görev(Task) : kullanıcının elindeki araç ile gerçekleştirdiği iştir.
+• Bağlam(Context) : kulanıcının bir görevi bir araç ile gerçekleştirilem içinde bulunduğu ortamdır.
+IBE VE KULLANICININ 4 BOYUTU
+• fizyolojik
+• algı
+• bilişsel
+• sosyal
+KULLANICININ TEMEL OZELLIKLERİ
+-deneyimle değişirler
+-aktif öğrenirler
+-dikkatleri düşüktür
+-hata yaparlar
+-sistemi kafalarında modeller
+-hepsi farklıdır
+-hedef merkezlidirler
+IKI TIP BILISSEL İSLEM
+-Kontrollü
+Bir şeyi nasıl yapacağımızı ya da nasıl bir tepki vereceğimizi düşünüp/planlayıp gerçekleştirdiğimiz durumlar
+-Otomatik
+Yukarıdaki durumlar dışı
+
+KONTROLLU ISLEM
+Dikkat gerektirir
+Uygun yere odaklanmak
+Diğer herşeyi yoksaymak
+Bilinçli bir kontrol altındadır
+Her hareket planlı
+Bilişsel sistemin kısıtlarına bağımlıdır
+İşlemleri yavaşlatır
+
+OTOMATIK ISLEM
+Dikkatle ilgili minimum talep
+Tepkiler serbestçe gerçekleşir
+Neredeyse refleks seviyesinde
+Hızlı
+Karar verme süreci yok
+Öğrenilen otomatik davranışı unutmak zordur (TR-ABD Araba sürüş deneyimi)
+
+PRATIK NEREDE CALISIR
+Görev tipine bağlı:
+-Yetenek temelli
+Otomatikleşme potansiyeli en yüksek
+-Kural temelli
+Kapsamlı tekrar ile otomatikleşebilir
+-Bilgi temelli
+Otomatikleşmez 
+
+•Kullanıcının sistem modeli
+     •User’s conceptual model
+•Tasarımcının tasarladığı model (kullanıcı için)
+      •The system image
+•Kullanıcının zihinsel modeli
+       •Model kullanım zamanı oluşur
+       •Yukarıdaki modelleri temel alır
+TEMEL OZELLIKLER
+•Bilişsel sistemimizin temel yapıları
+     hafıza (kısa ve uzun süreli), şema, vs.
+•İşlemler
+      Kodlama, çağırma, özümseme vs.
+•Biliş aktiftir:	
+     anlam ve düzenlilik arar.
+
+BILIS HIZLI VE DUZENLI
+•Algısal Ön İşlemci
+    •Veriler hızla yok olur (<1sn).
+    •Gelen sinyalin karakteristiklerine duyarlıdır.
+     •Bilinçsiz süreç
+•Algı
+     •Çok sayıdaki sinyali bir kategoriye eşleştirme
+      •Hissetme, tanıma, kategorize etme döngüsü
+      •Bilinçli
+•Karar ve tepki seçimi
+   •Bilgi bir kere kodlanırsa tepki verilir.
+    •Otomatik ya da kontrollü tepki
+•Tepkinin gerçekleşmesi
+     •Bir dizi davranış süreci
+•Geribildirim
+     •Olayları ve bizim tepkimizi takip ederiz.
+•Dikkat, algısal ön işlemci’den sonra devreye girer.
+
+SONUC
+•Algı aktif ve yorumlayıcıdır.
+•Yorumlama 
+    -görsel/işitsel (aşağıdan yukarı) ve 
+    -deneyim temelli (yukarıdan aşağı)
+•Bazen yorumlar eksik olabilir.
+•Uyaranlar düzenli ise etkileşimi otomatikleştirir.
+•Düzensiz uyaranlar eski deneyimlere göre yorumlanır.
+
+TASARIMA ETKISI
+-tasarımcı ürünü kullanıcının gözünden göremez
+-kullanıcılar arası farklılıklar bilgiyi farklı algılamaya neden olabilir.
+-deneyim ve sürekli kullanmak kullanıcılar arasındaki farklılığı azaltır.
+
+NORMANIN 4 TASARIM PRENSİBİ
+-Görülebilirlik 
+-Kavramsal model 
+-Anlamlı eşleştirmeler
+-Geribildirim
+
+NORMANIN 7 AŞAMALI ETKİLEŞİM DÖNGÜSÜ
+
+•Kullanıcı hedefini ve yapacağı işlemi belirler,
+•Bilgisayar ara yüzü ile işlemi gerçekleştirir,
+•Uygulama sonucunu gözlemler; sistemin durumunu algılar ve yorumlar,
+•Sonucu değerlendirir,  sonraki adıma karar verir.
+
+
+BİLİŞSEL ETKİNLİK - FİZİKSEL ETKİNLİK
+-algılama
+-yorumlama
+-değerlendirme
+-hedefler beklenti
+-yapılmak istenen
+-hareketin belirlenmesi
+-gerçekleştirme
+
+
+YEDİ AŞAMALI DÖNGÜ MODELİNİN KULLANIMI
+•Norman şunu sormanızı tavsiye eder: Bir kullanıcı ne kadar kolaylıkla:
+      •Bir aracın fonksiyonlarını anlar
+      •Yapmak istediklerini fiziksel harekete döker
+      •Hareketi gerçekleştirir
+      •Sistemin durumu ile yapmak istediğini eşleştirir
+      •Sistemin istediği duruma gelip gelmediğini söyleyebilir
+
+
+ETKILESİM
+“Toplum yaşamında her şeyin hem kendisinin bağlı olduğu,
+ hem de kendisine bağlı olan bir karşılıklı etkiler bütünlüğü içinde bulunması; 
+neden ile sonucun birbirinden ayrı değil, sıkı sıkıya birbirine bağlı olması ve durmadan
+ birbiriyle yer değiştirmesi”
+
+LANDAUER
+
+-Üretkenlik ile Bilişim Teknolojisi verisi negatif ilişkili
+-Karşı fikirlerin temeli zayıf
+    -Zaman içinde etkisi görülecek
+    -Satış rakkamları olumlu
+    -İnsanlar öyle söylüyor
+    -Ölçme problemleri
+
+LANDAUR A GÖRE SEBEBLER
+-Yazılımların zayıf tasarlanması
+-Teknik otomasyon gerçekleşti ama kullanım süreçleriyle bütünleştirme sorunu
+-Kullanıcı merkezli tasarım tek çözüm
+   -Kullanılabilirlik ile iş verimliliğinde %25’e kadar artış
+   -‘Tipik arayüzde 40 sorun vardır. Bunların 20 tanesini düzeltmek kullanılabilirliği %50 arttırır’
+
+SHNEİDERMAN-'IN 8 ALTIN KURALI
+
+1.Tutarlılık
+2.Evrensel kullanılabilirlik
+3.Kaliteli geri bildirim
+4.Süreç ve sonuç odaklı diyaloglar
+5.Hatadan koruma
+6.İşlemleri geri alabilme
+7.Kontrol kullanıcıda olmalı
+8.Kısa süreli hafıza yükünü düşür
+
+ETKILESİM VE NORMAN
+-Etkileşim mesajların makinadan etkin şekilde kullanıcıya sunulmasıdır.
+-Hata etkileşimin doğal bir parçasıdır.
+-Kullanıcı sistem modelini parçalı bilgilerle oluşturur.
+-Kararlarımızı fiziksel harekete çevirir sonra bunun sonuçlarını yorumlarız.
+-Olaylar yanıtımızı tetikler.
+   -Dünya ile etkileşimimiz sürekli bir döngüdür.
+
+LUCY SUCHMAN
+-Etkileşim sürecinin iletişim ve bağlam özellikleri öne çıkarılmaktadır.
+-Konuşmaya benzer, anlamlı bir İnsan-Bilgisayar diyaloğu 
+-Nasıl yüzyüze konuşan iki kişi karşısındakinin o an içinde bulunduğu modu ya da eğitim durumunu anlayıp ona göre cevap veriyorsa, burada da benzer bir davranış sergilenmelidir.
+-İnsanların davranışları önceden planlı değildir, bulundukları duruma göre tepki verirler (“situated action”)
+
+SUCHMAN VE NORMAN SHNEİDERMAN
+-Suchman - Bilgisayar kullanıcıyı anlamalı, ne yapmak istediğini sezip ona göre davranmalı
+-N&S - Etkileşim, makinadan mesajların etkin şekilde kullanıcıya sunulması 
+-“İnsanlar bilgisayara ayak uyduracağına, bilgisayarlar insanlara ayak uydurmalı; bir başka deyişle, “insan okur-yazarlığı” olan bilgisayarlar yapılmalı”. (TÜBİTAK Vizyon 2023 Raporu)
+
+ARAYUZLER
+•Fiziksel
+   •Klavye
+   •Fare
+   •Ekran
+•Kavramsal (Metaforik)
+    •Masaüstü
+    •Çöp kutusu
+    •Dosya, klasör
+
+ETKILESİM TİPİ
+•Geleneksel
+    •Komutlar
+    •Menüler
+    •Formlar
+•Yeni
+    •Doğal dil
+    •Duygular
+    •Beyin-Bilgisayar
+
+•Kullanıcı arayüz ile etkileşirken, ne kadar:
+     -Aracın fonksiyonlarını anlıyor.
+     -Yapmak istedikleri ile fiziksel hareketi eşleştirebiliyor.
+     -Görevi gerçekleştiriyor.
+     -Sistemin bulunduğu durumu anlıyor.
+     -Sistemin istenen durumda olduğunu söyleyebiliyor.
+
+NORMANIN 4 TASARIM PRENSİBİ
+•Görülebilirlik 
+•Kavramsal model 
+•Anlamlı eşleştirmeler
+•Geribildirim
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

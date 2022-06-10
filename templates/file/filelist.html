@@ -1,0 +1,14 @@
+<ul>
+    <!-- Iterate over object_list -->
+    {% for file in file_list %}
+    <!-- Display Objects -->
+    <a href="{{ file.get_absolute_url }}">{{ file.title }}</a> ({{file.author}})
+    <li>{{ objects.name }}</li>
+    
+   
+    <hr/>
+    <!-- If object_list is empty  -->
+    {% empty %}
+    <li>not enough yet</li>
+    {% endfor %}
+</ul>

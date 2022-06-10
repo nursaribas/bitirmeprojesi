@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <title>Elektrik Mühendisliği</title>
+    <!--- buraya fontları bul ve yapıştır-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@600&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <style type="text/css">
+      @font-face{
+        font-family: 'Lobster', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Raleway', sans-serif;
+      }
+      h1{
+        font-family: 'Lobster', cursive;
+      
+      }
+      .counter-up{
+        background: gray;
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        padding: 0 50px;
+      }
+      .counter-up .content{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .content .box{
+        width: calc(29% - 30px);
+        border: 2px dashed #fff;
+        border-radius: 10px;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #fff;
+        flex-direction: column;
+      }
+      .content .box .text{
+        color: #fff;
+        font-family: 400;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:dimgrey;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="notmatik"><p><h1>NOTMATİK</h1></p></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./akademisyen">AKADEMİSYEN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./iletisim">İLETİŞİM</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="*" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FAKÜLTELER
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./fakulte">DİŞ HEKİMLİĞİ FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">ECZACILIK FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">EĞİTİM FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">FEN EDEBİYAT FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">GÜZEL SANATLAR FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">İLAHİYAT FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">MÜHENDİSLİK FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">MÜHENDİSLİK VE DOĞA BİLİMLERİ FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">SAĞLIK BİLİMERİ FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">SİVEREK UYGULAMALI BİLİMLER FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">TIP FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">VETERİNER FAKÜLTESİ</a></li>
+            <li><a class="dropdown-item" href="./fakulte">ZİRAAT FAKÜLTESİ</a></li>
+
+          </ul>
+          <li class="nav-item">
+          <a class="nav-link" href="./notlar">NOTLAR</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">HAKKIMIZDA</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+      <a href="./giris">
+        <button class="btn btn-outline-success me-2" type="button">GİRİŞ</button>
+      </a>
+      </form>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-7 col-md-6 col-lg-8" style="background-color:white;">
+      <ul>
+        <h1>ELEKTRİK & ELEKTRONİK MÜHENDİSLİĞİ DERSLERİ</h1>
+            <li><a  href="#">Lineer Cebir</a></li>
+            <li><a  href="#">Algoritma ve Programlama 1</a></li>
+            <li><a  href="#">Algoritma ve Programlama 2</a></li>
+            <li><a  href="#">Elektrik-Elektronik Mühendisliğine Giriş</a></li>
+            <li><a  href="#">Mühendislik Matematiği</a></li>
+            <li><a  href="#">Elektrik Devreleri 1</a></li>
+            <li><a  href="#">Lineer Cebir</a></li>
+            <li><a  href="#">Elektrik Devreleri 2</a></li>
+            <li><a  href="#">İstatistik</a></li>
+            <li><a  href="#">Elektromanyetik Dalga Teoremi</a></li>
+            <li><a  href="#">Sayısal Mantık Devreleri</a></li>
+            <li><a  href="#">Elektronik Devreler 1</a></li>
+            <li><a  href="#">Elektronik Devreler 2</a></li>
+            <li><a  href="#">Elektromanyetik Alan Teoremi</a></li>
+            <li><a  href="#">İşaretler ve Sistemler</a></li>
+            <li><a  href="#">Diferansiyel Denklemler</a></li>
+            <li><a  href="#">Otomatik Kontrol Sistemi</a></li>
+            <li><a  href="#">Haberleşme</a></li>
+            <li><a  href="#">Elektrik Tesisleri</a></li>
+            <li><a  href="#">Güç Elektroniği</a></li>
+            <li><a  href="#">Sayısal Elektronik Devreler</a></li>
+            <li><a  href="#">Sayısal Haberleşme Sistemleri</a></li>
+            <li><a  href="#">Mikroişlemciler ve Tasarım Lab.</a></li>
+            <li><a  href="#">Elektronik Devreler ve Tasarım Lab. 1</a></li>
+            <li><a  href="#">Elektronik Devreler ve Tasarım Lab. 1</a></li>    
+          </ul>
+    </div>
+    <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:peru;">
+          <img src="image/card.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+           <h5 class="card-title">HALİMA:)</h5>
+           <p class="card-text">ÇOK FAZLA DERS ÇALIŞIYOR</p>
+           <a href="#" class="btn btn-primary">PROFİLİ GÖRÜNTÜLE</a>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="counter-up">
+  <div class="content">
+    <div class="box">
+      <div class="icon"><span class="material-icon">AKADEMİSYEN</span></div>
+      <div class="counter">15</div>
+      <div class="text">Akademisyen Sayısı</div>
+    </div>
+    <div class="box">
+      <div class="icon"><span class="fmaterial-icon">Bölüm Sayısı</span></div>
+      <div class="counter">12</div>
+      <div class="text">working Hours</div>
+    </div>
+    <div class="box">
+      <div class="icon"><span class="material-icon">DERSLER</span></div>
+      <div class="counter">160</div>
+      <div class="text">Ders Sayısı</div>
+    </div>
+    <div class="box">
+      <div class="icon"><span class="material-icon">NOT SAYISI</span></div>
+      <div class="counter">50</div>
+      <div class="text">Not Sayısı</div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

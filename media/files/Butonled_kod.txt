@@ -1,0 +1,29 @@
+#include <stm32f4xx.h>
+void SystemInit(){
+	unsigned int i;
+for(i=0;i<0x00100000;i++);
+RCC->CFGR |= 0x00009400; // 10.bit 12.bit ve 15.bit set ediliyor.ahb ve apb1-2 max h1za set ediliyor
+RCC->CR |= 0x00010000;   // 16.bit pll girisi HSE_On
+while(!( RCC->CR & 0x00020000)); //HSERDY HSE_on islemi icin bekliyoruz.
+RCC->PLLCFGR = 0x07405408;
+RCC->PLLCFGR = 0x07402A04;
+RCC->CR |= 0x01000000;  // PLL on bitini set eder
+	while(!(RCC->CR & 0x02000000));
+	FLASH->ACR =0x00000605; //flash rom 5 wait state bekleme
+	RCC->CFGR |=0x00000002; //Pll clk aktif
+	while((RCC->CFGR & 0x0000000F) != 0x0000000A); // beslemeye kadar bekle (donanim aktif olana kadar)
+
+	
+	RCC->AHB1ENR =0xFFFFFFFF; // GPIO D icin clock aktif edildi.
+	GPIOD->MODER =0x55000000;
+	GPIOD->OSPEEDR=0xFFFFFFFF; // tüm cikislar en yüksek hizda
+}
+int main(){
+while(1){
+if(GPIOA->IDR & 0x00000001)
+	GPIOD->ODR = 0x0000F000;
+else
+	GPIOD->ODR = 0x00000000;
+}
+}
+
